@@ -1,0 +1,97 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: gold;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    padding: 20px;
+    font-size: larger;
+    background-color: rgb(25, 25, 25);
+    color:white;
+    position: sticky;
+    margin-top: 0px;
+}
+nav{
+    display: block;
+    text-align: center;
+    width: 100%;
+    border:2px solid gold;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    gap: 29em;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-size: larger;
+}
+li:hover{
+    background-color: rgb(50, 50, 50);
+    border-radius: 8px;
+    transition: 0.2s ease-in-out;
+}
+.menu{
+    position: relative;
+}
+.menu li:hover{
+    background-color: rgb(50, 50, 50);
+    border-radius: 8px;
+    transition: 0.2s ease-in-out;
+}
+.dropdown{
+    background-color: rgb(25, 25, 25);
+    padding: 1em 0;
+    position: absolute;
+    display: none;
+    border-radius: 10px;
+    top: 35px;
+    text-align: center;
+}
+.dropdown li{
+    margin-top: 0px;
+    padding: 0.5em 1em;
+    width: 100%;
+    text-align: center;
+}
+.menu:hover .dropdown{
+    display: block;
+}
+main{
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    text-align: center;
+}
+h2{
+    padding: 50px;
+    text-decoration: underline;
+}
+p{
+    padding: 10px;
+}
+footer{    
+    border: 2px solid gold;
+    display: flex;
+    padding: 10px;
+    font-size: larger;
+    background-color: rgb(20, 20, 20);
+    color:white;
+    margin-bottom: 1px;
+}
+#footer{
+    margin: 1% 30%;
+    font-family: 'Courier New', Courier, cursive;
+    font-size: smaller;
+}
